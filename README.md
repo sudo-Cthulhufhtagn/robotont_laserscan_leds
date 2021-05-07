@@ -5,6 +5,7 @@ Demo: roslaunch robotont_laserscan_leds laserscan_and_leds_from_depth_image.laun
 Clear LEDs: rosrun robotont_laserscan_leds clear.py
 
 For LIDAR:
+
 Required: hls_lfcd_lds_driver
 sudo chmod a+rw /dev/ttyUSB0
 roslaunch hls_lfcd_lds_driver hlds_laser.launch
