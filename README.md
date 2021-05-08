@@ -1,17 +1,17 @@
 # robotont_laserscan_leds
-###Required packages: depthimage_to_laserscan, robotont_msgs 
+### Required packages: depthimage_to_laserscan, robotont_msgs 
 
-##Demo: 
+## Demo: 
 ```
 roslaunch robotont_laserscan_leds laserscan_and_leds_from_depth_image.launch 
 ```
-##Clear LEDs: 
+## Clear LEDs: 
 ```
 rosrun robotont_laserscan_leds clear.py
 ```
-##For LIDAR:
+## For LIDAR:
 
-###Required: hls_lfcd_lds_driver
+### Required: hls_lfcd_lds_driver
 ```
 sudo chmod a+rw /dev/ttyUSB0
 
